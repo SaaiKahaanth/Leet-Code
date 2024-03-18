@@ -5,7 +5,7 @@ class Solution(object):
        for i in s:
            if i  not in d:
                 d.add(i)
-            else:
+           else:
                c+=1
                d.clear()
                d.add(i)
