@@ -9,7 +9,7 @@ class Solution(object):
 
         l,r=0,x
         while l<=r:
-            m=l+((r-l)//2).
+            m=l+((r-l)//2)
 
 
             if m**2<x:
