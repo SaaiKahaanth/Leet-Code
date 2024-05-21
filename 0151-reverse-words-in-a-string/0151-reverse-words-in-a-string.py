@@ -9,9 +9,10 @@ class Solution(object):
                 break
             
             j=i+1
-            while(j<n and s[i]!=" "):j+=1
-            if len(result)==0:result=s[i:j-1]
-            else:result=s[i:j+1]+" "+result
+            while(j<n and s[j]!=" "):j+=1
+            sub=s[i:j]
+            if len(result)==0:result=sub
+            else:result=sub+" "+result
             i=j+1
         return result
         """
